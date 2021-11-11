@@ -33,7 +33,7 @@ a {
 }
 
 .button-header {
-    margin-left: 200px;
+    margin-left: 260px;
 }
 
 .log {
@@ -51,7 +51,7 @@ a {
 	background-clip: text;
     background-image: linear-gradient(to bottom right,#C381DB,#4E92F9);
     border: none;
-    
+    border-radius: 8px;  
 }
 /* end header */
 
@@ -71,12 +71,40 @@ h3 {
     font-size: 38px;
     font-weight: 700;
     color: #485466;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 p {
     color: #5A6980;
     line-height: 22px;
     margin-top: 13px;
+    margin-bottom: 49px;
+}
+
+.button-title-left {
+    padding: 7px 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom right,#C381DB,#4E92F9);
+    border-radius: 8px;
+    border: none;
+}
+
+.left-title {
+    top: 170px;
+    position: relative;
+}
+
+.right img {
+    position: absolute;
+    top: -150px;
+    left: -50px;
+    z-index: -1;
 }
 /* end main  */
+
+/* footer */
+.footer-botton {
+    margin-bottom: 0;
+}
+/* end footer */
