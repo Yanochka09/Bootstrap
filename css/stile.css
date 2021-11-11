@@ -1,4 +1,5 @@
 body {
+    font-family: "Nunito", sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -9,4 +10,73 @@ body {
 }
 
 /* header */
-/* and header */
+.header { 
+    padding: 19px 0;
+    /* background-color: aqua; */
+}
+
+.header-logo {
+    margin-left: 0;
+}
+
+.link-header {
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none; 
+    color:  #485466;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.button-header {
+    margin-left: 200px;
+}
+
+.log {
+    padding: 7px 16px;
+    color: #4E92F9;
+    font-weight: 700;
+    border: none;
+}
+
+.sign {
+    padding: 7px 16px;
+    font-weight: 700;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+    background-image: linear-gradient(to bottom right,#C381DB,#4E92F9);
+    border: none;
+    
+}
+/* end header */
+
+/* main */
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+    background-image: linear-gradient(to bottom right,#C381DB,#4E92F9);
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #485466;
+    margin-top: 0;
+}
+
+p {
+    color: #5A6980;
+    line-height: 22px;
+    margin-top: 13px;
+}
+/* end main  */
