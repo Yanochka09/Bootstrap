@@ -12,15 +12,10 @@ body {
 /* header */
 .header { 
     padding: 19px 0;
-    /* background-color: aqua; */
-}
-
-.header-logo {
-    margin-left: 0;
 }
 
 .link-header {
-    margin-left: 0;
+    margin-left: -15px;
 }
 
 a {
@@ -28,12 +23,12 @@ a {
     color:  #485466;
 }
 
-.ml30 {
-    margin-left: 30px;
+.ml32 {
+    margin-left: 32px;
 }
 
 .button-header {
-    margin-left: 260px;
+    margin-left: 113px;
 }
 
 .log {
@@ -41,6 +36,8 @@ a {
     color: #4E92F9;
     font-weight: 700;
     border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .sign {
@@ -51,7 +48,10 @@ a {
 	background-clip: text;
     background-image: linear-gradient(to bottom right,#C381DB,#4E92F9);
     border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
     border-radius: 8px;  
+    cursor: pointer;
 }
 /* end header */
 
@@ -88,6 +88,7 @@ p {
     background-image: linear-gradient(to bottom right,#C381DB,#4E92F9);
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .left-title {
@@ -98,13 +99,13 @@ p {
 .right img {
     position: absolute;
     top: -150px;
-    left: -50px;
+    left: -60px;
     z-index: -1;
 }
 /* end main  */
 
 /* footer */
 .footer-botton {
-    margin-bottom: 0;
+    margin-top: 400px;
 }
 /* end footer */
