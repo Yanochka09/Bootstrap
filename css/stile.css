@@ -1,0 +1,71 @@
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A6980;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Features*/
+
+.container{
+    background-color: cadetblue;
+}
+
+.Features-tiitle {
+    background-color: burlywood;
+    padding: 10px 0;
+}
+
+h3, h6, p {
+    text-align: center;
+}
+
+.Features-tiitle h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #242A33;
+    margin-bottom: 20px;
+}
+
+.Features-tiitle p {
+    line-height: 22px;
+}
+
+/*end Features*/
+
+/*Element*/
+.Element {
+    background-color: coral;
+    margin-top: 85px;
+}
+
+.icon-left, .icon-center, .icon-right {
+background: rgba(255, 255, 255, 0.5);
+border-radius: 24px;
+height: 98px;
+width: 99px;
+position: relative;
+left: 33%;
+}
+
+.icon {
+    position: absolute;
+    top: 25%;
+    right: 25px;
+}
+
+h6 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #6C7E99;
+}
+
+
+/*end Element*/
