@@ -12,12 +12,7 @@ body {
 
 /*Features*/
 
-/* .container{
-    background-color: cadetblue;
-} */
-
 .Features-tiitle {
-    /* background-color: burlywood; */
     padding: 10px 0;
 }
 
@@ -42,6 +37,10 @@ h3, h6, p {
 .Element {
     position: relative;
     margin-top: 85px;
+    margin-bottom: 132px;
+    background-image: url(../img/Group1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .icon-left, .icon-center, .icon-right {
@@ -163,9 +162,10 @@ h6 {
     z-index: -1;
 }
 
-.Element::before{
-    background-image: url(/img/Rectangle/svg);
+.Element::before {
+    content: url(../img/group3.svg);
     position: absolute;
-
+    right: 20px;
+    top: -80px;
 }
 /* конец псевдо эллементов */
